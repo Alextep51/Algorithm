@@ -10,6 +10,8 @@ public class Cache {
             if(cacheSize == 0){
                 return 5*cities.length;
             }
+
+
             for(String city : cities){
                 city = city.toUpperCase();
 
